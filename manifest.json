@@ -6,8 +6,13 @@
     "description": "I love embed",
     
     "icons": {
-      "48": "icons/border-48.png"
-    },    
+      "48": "icons/icon-48.png"
+    },
+    "browser_specific_settings": {
+      "gecko": {
+        "id": "embedor@appez.com"
+      }
+    },
     "content_scripts": [
       {
         "matches": ["https://www.youtube.com/watch*"],
