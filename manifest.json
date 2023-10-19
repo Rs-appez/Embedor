@@ -16,7 +16,7 @@
     "content_scripts": [
       {
         "matches": ["https://www.youtube.com/watch*"],
-        "js": ["test.js"]
+        "js": ["embedor.js"]
       }
     ]
   }
