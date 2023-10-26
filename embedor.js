@@ -19,7 +19,7 @@ function getQueryVariable(variable) {
 }
 
 function sanitizeString(str){
-    str = str.replace(/[^a-z0-9]/gim,"");
+    str = str.replace(/[^a-z0-9_-]/gim,"");
     return str.trim();
 }
 
